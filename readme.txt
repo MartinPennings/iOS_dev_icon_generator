@@ -1,5 +1,5 @@
 
-Simple script that generates icons for iOS-XCode.
+Simple Python script that generates icons for iOS-XCode.
 
 Requires Pillow:
 

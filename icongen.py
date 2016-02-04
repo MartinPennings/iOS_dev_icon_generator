@@ -9,9 +9,9 @@ def makeThumb(size_square,orgfile, prefix="thumb_"):
         im = Image.open(orgfile).convert("RGB")
         im.thumbnail((size_square,size_square))
         im.save(destfile, "PNG")
-        print("thumb created")
+        print("icon created")
     except IOError:
-        print("cannot create thumbnail for", orgfile)
+        print("cannot create icon for", orgfile)
 
 #######################################
 # enter your original icon file here
